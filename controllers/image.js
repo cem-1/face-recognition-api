@@ -3,9 +3,9 @@ const Clarifai = require('clarifai');
 
 const handleApiCall = (req,res) => {
     var IMAGE_URL = req.body.input;
-    const USER_ID = 'e6uzz58qbgss';
-    const PAT = 'c9f2fef0e7734711aaef9249726e6d01';
-    const APP_ID = '36611efaf2a540e2b94b1a410d2bf24d';
+    const USER_ID = 'e6u...';
+    const PAT = 'c9f...';
+    const APP_ID = '366...';
     const MODEL_ID = 'face-detection';  
 
     const raw = JSON.stringify({
